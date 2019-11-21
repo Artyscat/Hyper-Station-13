@@ -604,8 +604,9 @@
 	desc = "A coat that allows you to change the color of it's threads. Neat, huh?"
 	icon = 'modular_citadel/icons/polyclothes/item/uniform.dmi'
 	icon_state = "polycoatwinter"
-	item = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
 	item_state = "polycoatwinter"
+	mob_overlay_icon = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
+	mob_overlay_icon_state = "polycoatwinter"
 	hasprimary = TRUE
 	hassecondary = TRUE
 	hastertiary = TRUE
@@ -615,8 +616,7 @@
 	
 
 /obj/item/clothing/head/hooded/winterhood/poly
-	item = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
-	item_state = "winterhood_poly"
+	icon_state = "winterhood_poly"
 	hasprimary = TRUE
 	hassecondary = TRUE
 	hastertiary = TRUE
