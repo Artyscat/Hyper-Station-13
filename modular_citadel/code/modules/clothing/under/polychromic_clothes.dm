@@ -166,3 +166,25 @@
 	secondary_color = "#FFFFFF"
 	tertiary_color = "#8CC6FF"
 	body_parts_covered = CHEST|GROIN
+
+/obj/item/clothing/suit/polychromic/
+	name = "polychromic winter coat"
+	desc = "A coat that allows you to change the color of it's threads. Neat, huh?"
+	icon_state = "polycoatwinter"
+	item_state = "rainbow"
+	item_color = "polycoatwinter"
+	primary_color = "#FFFFFF" //RGB in hexcode
+	secondary_color = "#FFFFFF"
+	tertiary_color = "#808080"
+	body_parts_covered = CHEST|GROIN|ARMS
+	hoodtype = /obj/item/clothing/head/hooded/winterhood/poly
+
+
+/obj/item/clothing/head/polychromic/hood
+	icon_state = "winterhood_poly"
+	hasprimary = TRUE
+	hassecondary = TRUE
+	hastertiary = TRUE
+	primary_color = "#FFFFFF" //RGB in hexcode
+	secondary_color = "#FFFFFF"
+	tertiary_color = "#808080"

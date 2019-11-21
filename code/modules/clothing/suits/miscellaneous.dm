@@ -599,48 +599,6 @@
 /obj/item/clothing/head/hooded/winterhood/miner
 	icon_state = "winterhood_miner"
 
-/obj/item/clothing/suit/hooded/wintercoat/poly
-	name = "polychromic winter coat"
-	desc = "A coat that allows you to change the color of it's threads. Neat, huh?"
-	icon = 'modular_citadel/icons/polyclothes/item/uniform.dmi'
-	icon_state = "polycoatwinter"
-	item_state = "polycoatwinter"
-	item_color = "polycoatwinter"
-	hasprimary = TRUE
-	hassecondary = TRUE
-	hastertiary = TRUE
-	primary_color = "#FFFFFF" //RGB in hexcode
-	secondary_color = "#FFFFFF"
-	tertiary_color = "#808080"
-	hoodtype = /obj/item/clothing/head/hooded/winterhood/poly
-
-	obj/item/clothing/suit/hooded/wintercoat/poly/worn_overlays(isinhands, icon_file)	//this is where the main magic happens. Also mandates that ALL polychromic stuff MUST USE alternate_worn_icon
-	. = ..()
-	if(hasprimary | hassecondary | hastertiary)
-		if(!isinhands)	//prevents the worn sprites from showing up if you're just holding them
-			if(hasprimary)	//checks if overlays are enabled
-				var/mutable_appearance/primary_worn = mutable_appearance(alternate_worn_icon, "[item_color]-primary")	//automagical sprite selection
-				primary_worn.color = primary_color	//colors the overlay
-				. += primary_worn	//adds the overlay onto the buffer list to draw on the mob sprite.
-			if(hassecondary)
-				var/mutable_appearance/secondary_worn = mutable_appearance(alternate_worn_icon, "[item_color]-secondary")
-				secondary_worn.color = secondary_color
-				. += secondary_worn
-			if(hastertiary)
-				var/mutable_appearance/tertiary_worn = mutable_appearance(alternate_worn_icon, "[item_color]-tertiary")
-				tertiary_worn.color = tertiary_color
-				. += tertiary_worn
-
-/obj/item/clothing/head/hooded/winterhood/poly
-	icon_state = "winterhood_poly"
-	hasprimary = TRUE
-	hassecondary = TRUE
-	hastertiary = TRUE
-	primary_color = "#FFFFFF" //RGB in hexcode
-	secondary_color = "#FFFFFF"
-	tertiary_color = "#808080"
-	
-
 /obj/item/clothing/suit/spookyghost
 	name = "spooky ghost"
 	desc = "This is obviously just a bedsheet, but maybe try it on?"
