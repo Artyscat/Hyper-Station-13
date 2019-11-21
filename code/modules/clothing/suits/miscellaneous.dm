@@ -614,9 +614,6 @@
 	
 
 /obj/item/clothing/head/hooded/winterhood/poly
-	name = "polychromic winter coat hood"
-	desc = "The hood to a customizable winter coat"
-	icon = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
 	icon_state = "winterhood_poly"
 	hasprimary = TRUE
 	hassecondary = TRUE
