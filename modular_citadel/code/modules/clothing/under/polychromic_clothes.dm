@@ -170,6 +170,7 @@
 /obj/item/clothing/under/polychromic/wintercoat
 	name = "polychromic winter coat"
 	desc = "A coat that allows you to change the color of it's threads. Neat, huh?"
+	icon = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
 	icon_state = "polycoatwinter"
 	item_state = "polycoatwinter"
 	body_parts_covered = CHEST|GROIN|ARMS
@@ -180,7 +181,7 @@
 	primary_color = "#FFFFFF" //RGB in hexcode
 	secondary_color = "#FFFFFF"
 	tertiary_color = "#808080"
-	
+	hoodtype = /obj/item/clothing/head/polychromic/wintercoat
 
 /obj/item/clothing/head/polychromic/wintercoat
 	name = "polychromic winter coat hood"
@@ -188,6 +189,7 @@
 	primary_color = "#FFFFFF" //RGB in hexcode
 	secondary_color = "#FFFFFF"
 	tertiary_color = "#808080"
+	icon = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
 	icon_state = "winterhood_poly"
 	body_parts_covered = HEAD
 	cold_protection = HEAD
