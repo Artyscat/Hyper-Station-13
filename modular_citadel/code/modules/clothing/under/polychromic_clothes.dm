@@ -168,7 +168,7 @@
 	body_parts_covered = CHEST|GROIN
 
 /obj/item/clothing/under/polychromic/wintercoat
-	name = "Polychromic Winter Coat"
+	name = "polychromic winter coat"
 	desc = "A coat that allows you to change the color of it's threads. Neat, huh?"
 	icon_state = "polycoatwinter"
 	item_state = "polycoatwinter"
@@ -182,8 +182,8 @@
 	tertiary_color = "#808080"
 	
 
-/obj/item/clothing/under/polychromic/wintercoat
-	name = "Polychromic Winter Coat Hood"
+/obj/item/clothing/head/polychromic/wintercoat
+	name = "polychromic winter coat hood"
 	desc = "The hood to a customizable winter coat"
 	primary_color = "#FFFFFF" //RGB in hexcode
 	secondary_color = "#FFFFFF"
