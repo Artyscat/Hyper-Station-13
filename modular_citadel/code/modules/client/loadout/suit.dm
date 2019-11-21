@@ -64,6 +64,11 @@
 	category = SLOT_WEAR_SUIT
 	path = /obj/item/clothing/suit/hooded/wintercoat
 
+/datum/gear/polycoat
+	name = "Polychromic Winter Coat"
+	category = SLOT_WEAR_SUIT
+	path = /obj/item/clothing/under/polychromic/wintercoat
+
 /datum/gear/militaryjacket
 	name = "Military Jacket"
 	category = SLOT_WEAR_SUIT
