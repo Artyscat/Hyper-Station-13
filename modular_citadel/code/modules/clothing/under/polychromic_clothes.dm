@@ -181,7 +181,6 @@
 	primary_color = "#FFFFFF" //RGB in hexcode
 	secondary_color = "#FFFFFF"
 	tertiary_color = "#808080"
-	hoodtype = /obj/item/clothing/head/polychromic/wintercoat
 
 /obj/item/clothing/head/polychromic/wintercoat
 	name = "polychromic winter coat hood"
