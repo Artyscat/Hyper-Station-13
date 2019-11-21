@@ -166,31 +166,3 @@
 	secondary_color = "#FFFFFF"
 	tertiary_color = "#8CC6FF"
 	body_parts_covered = CHEST|GROIN
-
-/obj/item/clothing/under/polychromic/wintercoat
-	name = "polychromic winter coat"
-	desc = "A coat that allows you to change the color of it's threads. Neat, huh?"
-	icon = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
-	icon_state = "polycoatwinter"
-	item_state = "polycoatwinter"
-	body_parts_covered = CHEST|GROIN|ARMS
-	cold_protection = CHEST|GROIN|ARMS
-	min_cold_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
-	armor = list("melee" = 0, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 10, "rad" = 0, "fire" = 0, "acid" = 0)
-	allowed = list(/obj/item/flashlight, /obj/item/tank/internals/emergency_oxygen, /obj/item/tank/internals/plasmaman, /obj/item/toy, /obj/item/storage/fancy/cigarettes, /obj/item/lighter)
-	primary_color = "#FFFFFF" //RGB in hexcode
-	secondary_color = "#FFFFFF"
-	tertiary_color = "#808080"
-
-/obj/item/clothing/head/polychromic/wintercoat
-	name = "polychromic winter coat hood"
-	desc = "The hood to a customizable winter coat"
-	primary_color = "#FFFFFF" //RGB in hexcode
-	secondary_color = "#FFFFFF"
-	tertiary_color = "#808080"
-	icon = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
-	icon_state = "winterhood_poly"
-	body_parts_covered = HEAD
-	cold_protection = HEAD
-	min_cold_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
-	flags_inv = HIDEHAIR|HIDEEARS

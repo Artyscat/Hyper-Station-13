@@ -599,6 +599,33 @@
 /obj/item/clothing/head/hooded/winterhood/miner
 	icon_state = "winterhood_miner"
 
+/obj/item/clothing/suit/hooded/wintercoat/poly
+	name = "polychromic winter coat"
+	desc = "A coat that allows you to change the color of it's threads. Neat, huh?"
+	icon = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
+	icon_state = "polycoatwinter"
+	item_state = "polycoatwinter"
+	hasprimary = TRUE
+	hassecondary = TRUE
+	hastertiary = TRUE
+	primary_color = "#FFFFFF" //RGB in hexcode
+	secondary_color = "#FFFFFF"
+	tertiary_color = "#808080"
+	
+
+/obj/item/clothing/head/hooded/winterhood/poly
+	name = "polychromic winter coat hood"
+	desc = "The hood to a customizable winter coat"
+	icon = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
+	icon_state = "winterhood_poly"
+	hasprimary = TRUE
+	hassecondary = TRUE
+	hastertiary = TRUE
+	primary_color = "#FFFFFF" //RGB in hexcode
+	secondary_color = "#FFFFFF"
+	tertiary_color = "#808080"
+	
+
 /obj/item/clothing/suit/spookyghost
 	name = "spooky ghost"
 	desc = "This is obviously just a bedsheet, but maybe try it on?"
