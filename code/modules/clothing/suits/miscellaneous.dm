@@ -605,8 +605,6 @@
 	icon = 'modular_citadel/icons/polyclothes/item/uniform.dmi'
 	icon_state = "polycoatwinter"
 	item_state = "polycoatwinter"
-	mob_overlay_icon = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
-	mob_overlay_icon_state = "polycoatwinter"
 	hasprimary = TRUE
 	hassecondary = TRUE
 	hastertiary = TRUE
