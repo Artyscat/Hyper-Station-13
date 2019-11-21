@@ -602,8 +602,9 @@
 /obj/item/clothing/suit/hooded/wintercoat/poly
 	name = "polychromic winter coat"
 	desc = "A coat that allows you to change the color of it's threads. Neat, huh?"
-	icon = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
+	icon = 'modular_citadel/icons/polyclothes/item/uniform.dmi'
 	icon_state = "polycoatwinter"
+	item = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
 	item_state = "polycoatwinter"
 	hasprimary = TRUE
 	hassecondary = TRUE
@@ -614,7 +615,8 @@
 	
 
 /obj/item/clothing/head/hooded/winterhood/poly
-	icon_state = "winterhood_poly"
+	item = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
+	item_state = "winterhood_poly"
 	hasprimary = TRUE
 	hassecondary = TRUE
 	hastertiary = TRUE
