@@ -602,10 +602,10 @@
 /obj/item/clothing/suit/hooded/wintercoat/poly
 	name = "polychromic winter coat"
 	desc = "A coat that allows you to change the color of it's threads. Neat, huh?"
-	icon = 'modular_citadel/icons/item/uniform.dmi'
+	icon = 'modular_citadel/icons/polyclothes/item/uniform.dmi'
 	icon_state = "polycoatwinter"
 	item_color = "polycoatwinter"
-	alternate_worn_icon = 'modular_citadel/icons/mob/uniform.dmi'
+	alternate_worn_icon = 'modular_citadel/icons/polyclothes/mob/uniform.dmi'
 	primary_color = "#FFFFFF" //RGB in hexcode
 	secondary_color = "#FFFFFF"
 	tertiary_color = "#808080"
