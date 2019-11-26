@@ -65,7 +65,7 @@
 	path = /obj/item/clothing/suit/hooded/wintercoat
 
 /datum/gear/polycoat
-	name = "Polychromic Winter Coat"
+	name = "Polychromic Winter coat"
 	category = SLOT_WEAR_SUIT
 	path = /obj/item/clothing/suit/hooded/wintercoat/poly
 
